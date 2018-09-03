@@ -1,8 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "name": "aaronjholbrook/edumon",
+    "description": "The Educational Game.",
+    "license": "proprietary",
     "type": "project",
     "require": {
         "php": "^7.1.3",

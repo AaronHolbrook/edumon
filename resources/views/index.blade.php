@@ -16,6 +16,18 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body>
+
+@if(Route::has('login'))
+    <div class="absolute pin-t pin-r mt-4 mr-4">
+        @auth
+            <a href="{{ url('/home') }}" class="no-underline hover:underline text-sm font-normal text-teal-darker uppercase">Home</a>
+        @else
+            <a href="{{ route('login') }}" class="no-underline hover:underline text-sm font-normal text-teal-darker uppercase pr-6">Login</a>
+            <a href="{{ route('register') }}" class="no-underline hover:underline text-sm font-normal text-teal-darker uppercase">Register</a>
+        @endauth
+    </div>
+@endif
+
 <div id="app"></div>
 
 {{-- Global configuration object --}}

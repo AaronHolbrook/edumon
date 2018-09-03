@@ -1399,16 +1399,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App_vue__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__App_vue__);
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
 __webpack_require__(14);
 
 
 
-
-var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(_extends({}, __WEBPACK_IMPORTED_MODULE_1__App_vue___default.a, {
-	el: '#app'
-}));
+//
+// const app = new Vue({
+// 	...App,
+// 	el: '#app'
+// })
 
 /***/ }),
 /* 14 */

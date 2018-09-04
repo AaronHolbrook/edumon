@@ -13,10 +13,4 @@ we've done our very best to explain each section.
 View the full documentation at https://tailwindcss.com.
 */
 
-module.exports =  {
-    plugins: [
-        require('tailwindcss/plugins/container')({
-            center: true,
-        })
-    ],
-}
+module.exports = require('tailwindcss/defaultConfig')()

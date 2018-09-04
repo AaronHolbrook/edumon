@@ -18,6 +18,7 @@ class CreateWordsTable extends Migration
 
             $table->string( 'word' );
             $table->mediumText( 'definition' );
+            $table->integer( 'level' )->nullable();
 
             $table->timestamps();
         });

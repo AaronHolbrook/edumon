@@ -1399,15 +1399,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App_vue__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__App_vue__);
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 __webpack_require__(14);
 
 
 
-//
-// const app = new Vue({
-// 	...App,
-// 	el: '#app'
-// })
+
+var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(_extends({}, __WEBPACK_IMPORTED_MODULE_1__App_vue___default.a, {
+	el: '#app-edumon'
+}));
 
 /***/ }),
 /* 14 */
@@ -1438,6 +1439,21 @@ if (token) {
 } else {
   console.error("CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token");
 }
+
+/**
+ * Echo exposes an expressive API for subscribing to channels and listening
+ * for events that are broadcast by Laravel. Echo and event broadcasting
+ * allows your team to easily build robust real-time web applications.
+ */
+
+// import Echo from 'laravel-echo'
+
+// window.Pusher = require('pusher-js');
+
+// window.Echo = new Echo({
+//     broadcaster: 'pusher',
+//     key: 'your-pusher-key'
+// });
 
 /***/ }),
 /* 15 */
@@ -31262,7 +31278,7 @@ var render = function() {
     "div",
     {
       staticClass:
-        "pt-4 pb-4 flex flex-col items-center justify-center bg-grey-light font-sans",
+        "pt-4 pb-4 flex flex-col items-center justify-center font-sans",
       attrs: { id: "app" }
     },
     [_c("score"), _vm._v(" "), _c("words")],

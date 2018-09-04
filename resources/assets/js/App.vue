@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="pt-4 pb-4 flex flex-col items-center justify-center bg-grey-light font-sans">
+    <div id="app" class="pt-4 pb-4 flex flex-col items-center justify-center font-sans">
         <score></score>
         <words></words>
     </div>
